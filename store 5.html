@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <script>
+        function showAlert() {
+            
+            window.location.href = "payment.html"; 
+        }
+    </script>
+</head>
+<body style="background-color:yellow">
+    <h1><center>DOCTOR </center></h1><br><br>
+<center>
+    <form action="/admin/" method="post">
+            <h2>Add/doctor details</h2>
+            VIEW COMPLAINT: <input type="text" name="ANIMALS" required><br><br>
+            POST SOLUTION: <input type="text" name="post solution" required><br><br>
+            view user deails: <input type="text" name="view user " required><br><br>
+            view payment details: <input type="text" name="view payment details" required><br><br>
+            feedback details: <input type="number" name="feedback deails" required><br><br>
+            
+
+    </form>
+<center>
+   <form>
+        <button type="button" onclick="showAlert()">pay</button>
+    </form>
+</body>
+</html>
